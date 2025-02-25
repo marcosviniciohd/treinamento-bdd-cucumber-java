@@ -23,10 +23,10 @@ public class AprenderCucumberPassos {
 
     }
 
-    @Dado("que o valor do contator é {int}")
-    public void queOValorDoContador(int valorContador) {
+    @Dado("que o valor do contador é {int}")
+    public void queOValorDoContadorE(int valorContador) {
         contador = valorContador;
-        System.out.println("O método será chamado com o valor do contador: " + (contador + valorContador));
+        System.out.println("O contador será iniciado com o valor: " + valorContador);
     }
 
     @Quando("eu incrementar em {int}")
